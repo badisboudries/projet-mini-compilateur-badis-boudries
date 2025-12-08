@@ -41,7 +41,7 @@ public class Compilateu {
         
         // PHASE 1: ANALYSE LEXICALE
       
-        System.out.println("  PHASE 1 : ANALYSE LEXICALE");
+        System.out.println(" ANALYSE LEXICALE");
        
         
         AnalyseurLexical lexer = new AnalyseurLexical(input);
@@ -68,7 +68,7 @@ public class Compilateu {
         
         // PHASE 2: ANALYSE SYNTAXIQUE
        
-        System.out.println("  PHASE 2 : ANALYSE SYNTAXIQUE");
+        System.out.println(" ANALYSE SYNTAXIQUE");
        
         
         AnalyseurSyntaxique analyseurSyntaxique = new AnalyseurSyntaxique(tokens);
@@ -85,3 +85,4 @@ public class Compilateu {
        
     }
 }
+
