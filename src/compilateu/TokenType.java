@@ -10,7 +10,7 @@ public enum TokenType {
     PUBLIC, PRIVATE, PROTECTED, CLASS, STATIC, VOID, INT, DOUBLE, FLOAT, STRING, BOOLEAN,
     IF, ELSE, WHILE, DO, FOR, SWITCH, CASE, DEFAULT, RETURN, BREAK, CONTINUE,
     
-    // Mots-clés personnalisés (REMPLACEZ PAR VOTRE NOM ET PRÉNOM)
+    // Mots-clés personnalisés 
     VOTRE_NOM, VOTRE_PRENOM,
 
     
@@ -39,4 +39,5 @@ public enum TokenType {
     
 
 }
+
 
