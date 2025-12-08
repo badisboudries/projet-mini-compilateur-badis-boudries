@@ -61,8 +61,8 @@ public class AnalyseurLexical {
         motsReserves.put("false", TokenType.BOOLEAN_LITERAL);
         
         // REMPLACEZ PAR VOTRE NOM ET PRÉNOM
-        motsReserves.put("Benali", TokenType.VOTRE_NOM);
-        motsReserves.put("Ahmed", TokenType.VOTRE_PRENOM);
+        motsReserves.put("boudries", TokenType.VOTRE_NOM);
+        motsReserves.put("badis", TokenType.VOTRE_PRENOM);
     }
     
     private void avancer() {
@@ -245,4 +245,5 @@ public class AnalyseurLexical {
     public List<String> getErreurs() {
         return erreurs;
     }
+
 }
